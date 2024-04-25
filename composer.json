@@ -1,0 +1,24 @@
+{
+  "name": "tigokr/php-capitalist-client",
+  "type": "library",
+  "description": "Capitalist.net PHP API client",
+  "keywords": [
+    "capitalist.net",
+    "api",
+    "capitalist",
+    "client"
+  ],
+  "homepage": "https://capitalist.net",
+  "license": "MIT",
+  "require": {
+    "php": "~8.0",
+    "phpseclib/phpseclib": "~2.0",
+    "ext-mbstring": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Capitalist\\": "src/"
+    }
+  }
+}
